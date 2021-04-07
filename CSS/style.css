@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+footer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 65vw;
+	height: 25vh;
+	margin: 0 auto;
+	background: url("https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png")
+		repeat center;
+}
+.all-right {
+	color: antiquewhite;
+	margin-bottom: 20px;
+}
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: blueviolet;
+	transition: color 300ms ease-in-out;
+}
+a:nth-child(2) {
+	margin: 0 25px;
+}
+a:hover{
+	color: rgb(184, 129, 235);
+	transition: color 300ms ease-in-out;
+}
+strong{
+	font-weight: 1000;
+}
